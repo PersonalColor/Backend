@@ -1,13 +1,24 @@
 import express from 'express'
 import envConfig from './config/env'
+import setting from './lib/setting'
+import logging from './lib/logging'
+import log from './module/log'
+import route from './route'
+import IntervalManager from './lib/interval'
 
 async function main() {
   const PORT = envConfig.PORT ?? 4000
 
   const server = express()
+  server.set('trust proxy', 1)
+
+  server.use(setting)
+  server.use(logging)
+  server.use('/api', route)
 
   server.listen(PORT, () => {
-    console.log(`Start PICode server - 0.0.0.0:${PORT}`)
+    IntervalManager.run()
+    log.info(`Start server - 0.0.0.0:${PORT}`)
   })
 }
 
