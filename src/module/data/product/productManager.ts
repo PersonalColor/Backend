@@ -6,6 +6,10 @@ export default class DataProductManager {
     return `${DataDirectoryPath}/product`
   }
 
+  static getProductList() {
+    
+  }
+
   static updateProductData() {
     const result = spawn('./src/scripts/venv/Scripts/python', ['./src/scripts/scanConfig.py', ''])
 
@@ -19,5 +23,13 @@ export default class DataProductManager {
     setInterval(() => {
       this.updateProductData()
     }, 60 * 60 * 6 * 1000)
+  }
+
+  static create() {
+
+  }
+
+  static delete() {
+    
   }
 }

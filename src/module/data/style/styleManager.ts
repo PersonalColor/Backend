@@ -6,6 +6,10 @@ export default class DataStyleManager {
     return `${DataDirectoryPath}/style`
   }
 
+  static getStyleList() {
+    
+  }
+
   static updateStyleData() {
     const result = spawn('./src/scripts/venv/Scripts/python', ['./src/scripts/scanConfig.py', ''])
 
@@ -19,5 +23,13 @@ export default class DataStyleManager {
     setInterval(() => {
       this.updateStyleData()
     }, 60 * 60 * 6 * 1000)
+  }
+
+  static create() {
+
+  }
+
+  static delete() {
+    
   }
 }

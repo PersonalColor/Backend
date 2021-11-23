@@ -4,4 +4,16 @@ export default class DataMyPageManager {
   static getMyPagePath() {
     return `${DataDirectoryPath}/mypage`
   }
+
+  static getBookmarkLIst() {
+
+  }
+
+  static create() {
+
+  }
+
+  static delete() {
+    
+  }
 }
