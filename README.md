@@ -39,11 +39,7 @@ And repeat
 - 따라서 위의 문제를 해결하기 위해 자신의 퍼스널 컬러가 무엇인지 알 수 있을 뿐만 아니라 본인이 가지고 있는 혹은 구매할 제품이 자신의 퍼스널 컬러에 맞는 색상인지 알아낼 수 있고 그 색상과 비슷한 제품들을 추천받고 여러 소셜커머스에 등록되어 있는 제품들을 확인할 수 있는 플랫폼을 만들고자 하였다.
 
 ## Authors
-  - [Always0ne](https://github.com/Always0ne) - **SangIl Hwang** - <si8363@soongsil.ac.kr>
-
-See also the list of [contributors](https://github.com/always0ne/readmeTemplate/contributors)
-who participated in this project.
-<!--
-## Used or Referenced Projects
- - [referenced Project](project link) - **LICENSE** - little-bit introduce
--->
+  - Backend - [wlsrn3684](https://github.com/wlsrn3684) - **김진구**
+  - Crawling - [kinghyeongu](https://github.com/kinghyeongu) - **강현구**
+  - Frontend [jaryeong](https://github.com/jaryeong) - **김자령**
+  - Data(open cv, pillow) [goodsmell](https://github.com/goodsmell) - **조은향**
