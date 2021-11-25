@@ -9,28 +9,25 @@
 ex
 
 ## How To Install
-**click `Use this template` and use this template!**
-<!--
-### How To Use
- Write about need to install the software and how to install them 
--->
-### Installing
-<!-- A step by step series of examples that tell you how to get a development 
-env running
-Say what the step will be
-    Give the example
-And repeat
-    until finished
--->
-1. Click `Use this template` button 
-2. Create New Repository
-3. Update Readme and Others(Other features are noted in comments.)
-<!--
-## Deployment
- Add additional notes about how to deploy this on a live system
- -->
+Open your ex polder and ... insert this code..
+
+```sh
+git clone https://github.com/PersonalColor/Backend.git
+cd Backend
+npm i
+npm run server
+```
+
+```sh
+git clone https://github.com/PersonalColor/Frontend.git
+cd Frontend
+npm i
+npm start
+```
+## How To Use
+ex
  
- ## Contents
+## Contents
 <!-- Write Overview about this project -->
 - 퍼스널컬러(Personal Color)란 사람의 피부톤과 가장 어울리는 색상을 찾는 색채학 이론이다. 피부톤에 어울리는 색을 웜톤 쿨톤이나 봄, 여름, 가을, 겨울로 나누어 부르는 것이 바로 이 퍼스널 컬러를 기반으로 한 것이다.
 - 본인에게 어떤 색이 베스트인지 알고 싶을 때, 혹은 어떤 계열의 색이 미묘하게 안색이 탁해보이거나 어두워보이거나 창백해보이는지 알고 싶을 때 퍼스널컬러를 알면 좋다.
