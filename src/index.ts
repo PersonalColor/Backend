@@ -5,6 +5,7 @@ import logging from './lib/logging'
 import log from './module/log'
 import route from './route'
 import IntervalManager from './lib/interval'
+import { UploadDirectoryPath } from './types/module/data/data.types'
 
 async function main() {
   const PORT = envConfig.PORT ?? 4000
@@ -15,6 +16,7 @@ async function main() {
   server.use(setting)
   server.use(logging)
   server.use('/api', route)
+  server.use('/api/temp', express.static(`${UploadDirectoryPath}`))
 
   server.listen(PORT, () => {
     IntervalManager.run()
