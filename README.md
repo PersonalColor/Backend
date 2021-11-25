@@ -22,15 +22,11 @@ Open your ex polder and ... insert this code..
 git clone https://github.com/PersonalColor/Backend.git
 cd Backend
 npm i
+cd src/scripts
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
 npm run server
-```
-
-```sh
-cd ..
-git clone https://github.com/PersonalColor/Frontend.git
-cd Frontend
-npm i
-npm start
 ```
 ## How To Use
 ![](/imgs/1.PNG)
