@@ -41,5 +41,5 @@ And repeat
 ## Authors
   - Backend - [wlsrn3684](https://github.com/wlsrn3684) - **김진구**
   - Crawling - [kinghyeongu](https://github.com/kinghyeongu) - **강현구**
-  - Frontend [jaryeong](https://github.com/jaryeong) - **김자령**
-  - Data(open cv, pillow) [goodsmell](https://github.com/goodsmell) - **조은향**
+  - Frontend - [jaryeong](https://github.com/jaryeong) - **김자령**
+  - Data(open cv, pillow) - [goodsmell](https://github.com/goodsmell) - **조은향**
