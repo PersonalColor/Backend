@@ -47,6 +47,7 @@ npm start
 ![](/imgs/11.PNG)
 ![](/imgs/12.PNG)
 ![](/imgs/14.PNG)
+![](/imgs/15.PNG)
 
 
  
