@@ -61,6 +61,9 @@ npm run server
 ![](/imgs/20.PNG)
 진단결과를 보여준 후 저장하기를 누르면 회원정보에 퍼스널 컬러정보가 저장됩니다.
 ![](/imgs/16.PNG)
+![](/imgs/23.PNG)
+![](/imgs/21.PNG)
+![](/imgs/22.PNG)
 ![](/imgs/17.PNG)
 ![](/imgs/18.PNG)
 ![](/imgs/8.PNG)
