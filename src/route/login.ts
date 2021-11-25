@@ -26,7 +26,9 @@ router.post('/', (req, res) => {
   const token = signToken({ userId, userName: userData.userName })
   res.cookie('authorization', token, { httpOnly: true, maxAge: 10 * 60 * 1000 })
 
-  res.json({ code: ResponseCode.ok })
+  console.log(userData)
+
+  res.json({ code: ResponseCode.ok, personalColor: userData.personalColor })
 })
 
 export default router
