@@ -30,9 +30,15 @@ pip install -r requirements.txt
 npm run server
 ```
 ## How To Use
+1. 로그인 화면
 ![](/imgs/1.PNG)
+아이디와 패스워드를 입력하여 로그인을 할 수 있고 , '아이디가 없으신가요?' 선택 시 회원가입을 할 수있습니다.<br>
+
+2.회원가입
 ![](/imgs/2.PNG)
+이름, 아이디, 패스워드를 입력합니다.
 ![](/imgs/3.PNG)
+사용자의 퍼스널 컬러 정보를 알기 위해 'Person Color 진단하기'를 눌러 자신의 Personal Color를 검사합니다.
 ![](/imgs/4.PNG)
 ![](/imgs/5.PNG)
 ![](/imgs/6.PNG)
