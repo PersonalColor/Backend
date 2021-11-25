@@ -107,7 +107,8 @@ dist
 
 # data & work
 work
-data/**
+data/upload
+data/user
 test/**
 temp
 © 2021 GitHub, Inc.
