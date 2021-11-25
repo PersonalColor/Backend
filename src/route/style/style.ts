@@ -1,13 +1,10 @@
 import express from 'express'
+import DataStyleManager from '../../module/data/style/styleManager'
 
 const router = express.Router()
 
-router.get('/', async (req, res) => {})
-
-router.post('/', async (req, res) => {})
-
-router.put('/', async (req, res) => {})
-
-router.delete('/', async (req, res) => {})
+router.get('/', async (req, res) => {
+  return res.json(DataStyleManager.getStyleList())
+})
 
 export default router
