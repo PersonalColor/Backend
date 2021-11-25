@@ -24,7 +24,8 @@ cd Backend
 npm i
 cd src/scripts
 python -m venv venv
-source venv/Scripts/activate
+source venv/Scripts/activate (윈도우)
+source venv/bin/activate (맥 또는 우분투)
 pip install -r requirements.txt
 npm run server
 ```
