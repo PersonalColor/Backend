@@ -42,10 +42,10 @@ npm start
 ![](/imgs/7.PNG)
 ![](/imgs/8.PNG)
 ![](/imgs/9.PNG)
-![](/imgs/10.PNG)
+![](/imgs/13.PNG)
 ![](/imgs/11.PNG)
 ![](/imgs/12.PNG)
-![](/imgs/13.PNG)
+![](/imgs/10.PNG)
 ![](/imgs/14.PNG)
 
 
