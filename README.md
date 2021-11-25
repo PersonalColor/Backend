@@ -33,7 +33,22 @@ npm i
 npm start
 ```
 ## How To Use
-ex
+![](/imgs/1.PNG)
+![](/imgs/2.PNG)
+![](/imgs/3.PNG)
+![](/imgs/4.PNG)
+![](/imgs/5.PNG)
+![](/imgs/6.PNG)
+![](/imgs/7.PNG)
+![](/imgs/8.PNG)
+![](/imgs/9.PNG)
+![](/imgs/10.PNG)
+![](/imgs/11.PNG)
+![](/imgs/12.PNG)
+![](/imgs/13.PNG)
+![](/imgs/14.PNG)
+
+
  
 ## Contents
 ### 퍼스널 컬러 자가 진단
