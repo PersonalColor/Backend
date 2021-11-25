@@ -21,6 +21,7 @@ router.post('/', (req, res) => {
   const userId = req.body?.userId
   const passwd = req.body?.passwd
   const userName = req.body?.userName
+  const personalColor = req.body?.personalColor
   const userThumbnail = req.body?.userThumbnail
 
   if (userId === undefined || passwd === undefined || userName === undefined) {
@@ -30,7 +31,7 @@ router.post('/', (req, res) => {
     return res.json({ code: ResponseCode.invaildParameterType })
   }
 
-  if (!DataUserManager.create({ userId, userName, passwd, userThumbnail })) {
+  if (!DataUserManager.create({ userId, userName, passwd, personalColor, userThumbnail })) {
     return res.json({ code: ResponseCode.internalError })
   }
 
@@ -43,9 +44,10 @@ router.put('/', tokenRouter, (req, res) => {
   const userId = req.token.userId!
   const passwd = req.body?.passwd
   const userName = req.body?.userName
+  const personalColor = req.body?.personalColor
   const userThumbnail = req.body?.userThumbnail
 
-  if (!DataUserManager.update({ userId, passwd, userName, userThumbnail })) {
+  if (!DataUserManager.update({ userId, passwd, userName, personalColor, userThumbnail })) {
     return res.json({ code: ResponseCode.invaildParameterType })
   }
 
